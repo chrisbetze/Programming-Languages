@@ -1,6 +1,6 @@
 # Programming-Languages
 
-## Excercise 1: Colorful ribbon (C/C++, Standard ML, Prolog)
+## Exercise 1: Colorful ribbon (C/C++, Standard ML, Prolog)
 Α ribbon is *N* cm long and every centimeter has a color of *K* different colors, numbered from 1 to *K*.
 ![Capture](https://user-images.githubusercontent.com/50949470/112297252-585ad000-8c9e-11eb-866c-e203617caa62.PNG)<br>
 In the above example, the ribbon has length *N* = 10 cm and there are *K* = 3 colors: yellow (1), orange (2) and green (3).
@@ -10,7 +10,7 @@ The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 
 
 Examples:
 
-C/C++
+C
 ```
 $ ./colors c1.txt
 4
@@ -28,7 +28,7 @@ Answer = 0 ;
 false.
 ```
 
-## Excercise 2: Save the cat (C/C++, Python, Java)
+## Exercise 2: Save the cat (C/C++, Python, Java)
 A two-dimensional map is given, consisting of N x M squares (1 ≤ N, M ≤ 1000). Each square of the map contains one of the following symbols:
 * "A": Cat's initial position.
 * "W": The square contains a broken water pipe.
@@ -54,7 +54,7 @@ The input of the program is read from a file consisting of *N* lines, each of wh
 
 Examples:
 
-C/C++
+C++
 ```
 $ ./savethecat a1.txt
 infinity
@@ -73,7 +73,7 @@ $ java SaveTheCat a3.txt
 DDDRRRURR
 ```
 
-## Excercise 3: Lottery (Standard ML, Prolog)
+## Exercise 3: Lottery (Standard ML, Prolog)
 In a lottery, *N* are the lottery tickets sold, each of which is a number *Xi* consisting of exactly *K* decimal digitis. A lucky number *Y* is drawn. Based on this number, each lottery ticket wins a sum of money as follows:<br>
 If the *M* last digits of the lottery ticket *Xi* are the same as the M last digits of the lucky number Y, then the ticket wins 2<sup>Μ</sup>−1 euro.
 
