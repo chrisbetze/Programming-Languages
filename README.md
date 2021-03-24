@@ -53,6 +53,7 @@ The input of the program is read from a file consisting of *N* lines, each of wh
 ![1](https://user-images.githubusercontent.com/50949470/112302154-6b23d380-8ca3-11eb-80ff-5d260f98629a.png)
 
 Examples:
+
 C++
 ```
 $ ./savethecat a1.txt
