@@ -8,6 +8,23 @@ In the above example, the ribbon has length *N* = 10 cm and there are *K* = 3 co
 We want to find the **smallest** possible piece of ribbon it contains **all** the colours. If there is no such piece, then the number 0 (zero) must be written on the output.
 The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 100.000)
 
+Exaples:
+```
+?- colors('c1.txt', Answer).
+Answer = 4 ;
+false.
+```
+```
+?- colors('c2.txt', Answer).
+Answer = 10 ;
+false.
+```
+```
+?- colors('c3.txt', Answer).
+Answer = 0 ;
+false.
+```
+
 ## Excercise 2: Save the cat
 A two-dimensional map is given, consisting of N x M squares (1 ≤ N, M ≤ 1000). Each square of the map contains one of the following symbols:
 * "A": Cat's initial position.
@@ -31,3 +48,41 @@ If this sequence is empty, then in the second line the word "stay" must be print
 
 The input of the program is read from a file consisting of *N* lines, each of which contains *M* symbols. This file represents the map.<br>
 ![1](https://user-images.githubusercontent.com/50949470/112302154-6b23d380-8ca3-11eb-80ff-5d260f98629a.png)
+
+Examples:
+```
+$ python3 savethecat.py a1.txt
+  infinity
+  stay
+```
+```
+$ python3 savethecat.py a2.txt
+  5
+  RDDLL
+```
+```
+$ python3 savethecat.py a3.txt
+  15
+  DDDRRRURR
+```
+
+## Excercise 3: Lottery
+In a lottery, *N* are the lottery tickets sold, each of which is a number *Xi* consisting of exactly *K* decimal digitis. A lucky number *Y* is drawn. Based on this number, each lottery ticket wins a sum of money as follows:<br>
+If the *M* last digits of the lottery ticket *Xi* are the same as the M last digits of the lucky number Y, then the ticket wins 2<sup>Μ</sup>−1 euro.
+
+A list of *Q* possible lucky numbers *Yi* is given. For each such lucky number *Yi*, we must find how many lotteries win some non-zero amount
+(i.e. how many tickets have one or more common ending digits with the lucky number *Yi*) and which is the total amount that all lotteries win.
+
+Examples:
+```
+- lottery "t1.txt";
+1 15
+val it = () : unit
+```
+```
+- lottery "t2.txt";
+2 16
+0 0
+3 7
+val it = () : unit
+```
