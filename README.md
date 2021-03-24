@@ -10,7 +10,7 @@ The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 
 
 Examples:
 
-C++
+C/C++
 ```
 $ ./colors c1.txt
 4
