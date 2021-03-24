@@ -1,12 +1,13 @@
 # Programming-Languages
 
 ## Exercise 1: Colorful ribbon (C, Standard ML, Prolog)
-Α ribbon is *N* cm long and every centimeter has a color of *K* different colors, numbered from 1 to *K*.
+Α ribbon is *N* cm long and every centimeter has a color of *K* different colors, numbered from 1 to *K*.<br>
+(1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 100.000)
 ![Capture](https://user-images.githubusercontent.com/50949470/112297252-585ad000-8c9e-11eb-866c-e203617caa62.PNG)<br>
 In the above example, the ribbon has length *N* = 10 cm and there are *K* = 3 colors: yellow (1), orange (2) and green (3).
 
 We want to find the **smallest** possible piece of ribbon it contains **all** the colours. If there is no such piece, then the number 0 (zero) must be written on the output.
-The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 100.000)
+The input data is read from a .txt file.
 
 Examples:
 
