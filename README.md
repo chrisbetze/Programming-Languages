@@ -9,6 +9,7 @@ We want to find the **smallest** possible piece of ribbon it contains **all** th
 The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 100.000)
 
 Examples:
+
 C++
 ```
 $ ./colors c1.txt
