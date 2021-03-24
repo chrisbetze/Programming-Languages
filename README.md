@@ -1,6 +1,6 @@
 # Programming-Languages
 
-## Exercise 1: Colorful ribbon (C/C++, Standard ML, Prolog)
+## Exercise 1: Colorful ribbon (C, Standard ML, Prolog)
 Α ribbon is *N* cm long and every centimeter has a color of *K* different colors, numbered from 1 to *K*.
 ![Capture](https://user-images.githubusercontent.com/50949470/112297252-585ad000-8c9e-11eb-866c-e203617caa62.PNG)<br>
 In the above example, the ribbon has length *N* = 10 cm and there are *K* = 3 colors: yellow (1), orange (2) and green (3).
@@ -28,7 +28,7 @@ Answer = 0 ;
 false.
 ```
 
-## Exercise 2: Save the cat (C/C++, Python, Java)
+## Exercise 2: Save the cat (C++, Python, Java)
 A two-dimensional map is given, consisting of N x M squares (1 ≤ N, M ≤ 1000). Each square of the map contains one of the following symbols:
 * "A": Cat's initial position.
 * "W": The square contains a broken water pipe.
