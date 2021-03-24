@@ -10,14 +10,13 @@ The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 
 
 Exaples:
 ```
-?- colors('c1.txt', Answer).
-Answer = 4 ;
-false.
+$ ./colors c1.txt
+4
 ```
 ```
-?- colors('c2.txt', Answer).
-Answer = 10 ;
-false.
+- colors "c2.txt";
+10
+val it = () : unit
 ```
 ```
 ?- colors('c3.txt', Answer).
@@ -52,18 +51,18 @@ The input of the program is read from a file consisting of *N* lines, each of wh
 Examples:
 ```
 $ python3 savethecat.py a1.txt
-  infinity
-  stay
+infinity
+stay
 ```
 ```
 $ python3 savethecat.py a2.txt
-  5
-  RDDLL
+5
+RDDLL
 ```
 ```
 $ python3 savethecat.py a3.txt
-  15
-  DDDRRRURR
+15
+DDDRRRURR
 ```
 
 ## Excercise 3: Lottery
