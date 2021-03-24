@@ -77,7 +77,7 @@ DDDRRRURR
 In a lottery, *N* are the lottery tickets sold, each of which is a number *Xi* consisting of exactly *K* decimal digitis. A lucky number *Y* is drawn. Based on this number, each lottery ticket wins a sum of money as follows:<br>
 If the *M* last digits of the lottery ticket *Xi* are the same as the M last digits of the lucky number Y, then the ticket wins 2<sup>Μ</sup>−1 euro.
 
-A list of *Q* possible lucky numbers *Yi* is given. For each such lucky number *Yi*, we must find **how many tickets** win some non-zero amount
+A list of *Q* possible lucky numbers *Yi* is given. For each such lucky number *Yi*, we must find **how many tickets win** some non-zero amount
 (i.e. how many tickets have one or more common ending digits with the lucky number *Yi*) and which is the **total amount** that all lotteries win.
 
 Examples:
