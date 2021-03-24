@@ -29,5 +29,5 @@ The answer to the second question is a string that describes **the sequence of m
 
 If this sequence is empty, then in the second line the word "stay" must be printed. If the cat is safe and we can save it at any time, in the first line the word "infinity" must be printed. If there are many different solutions, then we choose a sequence of movements that leads to the square with the lexicographically smallest coordinates (first row and then column) and if there are many sequences of movements leading to this square, then we select the smallest number of moves and (among equals) the lexicographically smaller.
 
-The input of the program is read from a file consisting of *N* lines, each of which contains *M* symbols. This file represents the map.
+The input of the program is read from a file consisting of *N* lines, each of which contains *M* symbols. This file represents the map.<br>
 ![1](https://user-images.githubusercontent.com/50949470/112302154-6b23d380-8ca3-11eb-80ff-5d260f98629a.png)
