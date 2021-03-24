@@ -8,16 +8,19 @@ In the above example, the ribbon has length *N* = 10 cm and there are *K* = 3 co
 We want to find the **smallest** possible piece of ribbon it contains **all** the colours. If there is no such piece, then the number 0 (zero) must be written on the output.
 The input data is read from a .txt file. (1 ≤ Ν ≤ 1.000.000) (1 ≤ Κ ≤ 100.000)
 
-Examples in C++, Standard ML and Prolog:
+Examples:
+C++
 ```
 $ ./colors c1.txt
 4
 ```
+Standard ML
 ```
 - colors "c2.txt";
 10
 val it = () : unit
 ```
+Prolog
 ```
 ?- colors('c3.txt', Answer).
 Answer = 0 ;
